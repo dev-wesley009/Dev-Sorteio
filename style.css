@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    outline: none;
+}
+
+body {
+    background-image: url(./assets/sorteio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 100vh;
+    width: 100%;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.img {
+    height: 400px;
+}
+
+.inputs {
+   flex-direction:row;
+}
+
+input {
+    border-radius: 14px;
+    height: 40px;
+    width: 200px;
+    margin: 0 15px;
+    border: none;
+    padding-left: 15px;
+}
+
+button {
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    background: red;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+button:hover {
+    background: rgb(178, 29, 29);
+    transition: 0.5s;
+}
+
+button:active {
+    background: rgb(245, 6, 6);
+}
